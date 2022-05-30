@@ -11,5 +11,5 @@ console.log(edad);
 alert('gracias '+ nombre + ' nos alegra saber que tienes ' + edad + " anos");
 
 
-let text_num = parseInt(prompt('ingresa un texto porfavor'), 10);
-console.log(text_num);
+let text_num = prompt('ingresa un texto porfavor');
+console.log('tu texto tiene '+ text_num.length +" letras")
